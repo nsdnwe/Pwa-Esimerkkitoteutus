@@ -122,6 +122,8 @@ self.addEventListener('fetch', function (event) {
 </html>
 ```
 
+Yllä kuvattu koodi löytyy kokonaisuudessaan täältä: https://github.com/nsdnwe/Pwa-Sample
+
 ## Live Server
 Mikäli Server lisäosaa ei ole asennettuna ja haluat käyttää sitä kehitys-web-palvelimena, valitse VS Coden Extension sivulta Live Server
 <img src="https://nsdwww.azurewebsites.net/github-images/image013.png" width="30%">
