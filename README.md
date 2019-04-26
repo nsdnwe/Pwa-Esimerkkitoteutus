@@ -127,4 +127,5 @@ self.addEventListener('fetch', function (event) {
 - Mikäli VS Code:n ei ole asennettu Live Server lisäosaa ja haluat käyttää sitä kehitysympäristönä, valitse VS Coden 
 - Käynnistä Live Server Go Live painikkeesta
 
-![VS Code1](https://nsdwww.azurewebsites.net/github-images/image013.png | width=300)
+![VS Code1](https://nsdwww.azurewebsites.net/github-images/image013.png)
+<img src="https://nsdwww.azurewebsites.net/github-images/image013.png" width="50%">
