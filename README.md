@@ -55,11 +55,11 @@ Kansiorakenteen tulisi nyt näyttää tältä:
 
 <img src="https://nsdwww.azurewebsites.net/github-images/image000.png" width="50%">
 
-- Lisää viittaus `manifest.json` tiedostoon `index.html`:n.
+- Lisää `index.html`:n viittaus `manifest.json` tiedostoon.
 ```
 <link rel="manifest" href="/manifest.json">
 ```
-- Lisää `sw.js` sisällöksi:
+- Lisää Service Worker esimerkkikoodi eli `sw.js` tiedoston sisällöksi:
 
 ```
 // Sample to cache files for off-line use
