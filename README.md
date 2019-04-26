@@ -1,7 +1,9 @@
 # Pwa - Progressive Web Apps - Perusteet
+
 Tässä esimerkissä on käytetty editorina VS Code:a, johon on asennettuna [Live Server](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer) lisäosa, mutta toteutus on sama IDE:stä riippumatta. 
 
 ## Uuden PWA web-sovelluksen toteutus vaiheittain
+
 - Lisää tyhjä kansio ja avaa VS Code tässä kansiossa tai käynnistä VC Code ja valitse kyseinen kansio
 - Lisää projektiin tyhjä index.html
 - Lisää projektiin tyhjä styles.css
@@ -125,9 +127,41 @@ self.addEventListener('fetch', function (event) {
 Yllä kuvattu koodi löytyy kokonaisuudessaan täältä: https://github.com/nsdnwe/Pwa-Sample
 
 ## Live Server
+
 Mikäli Server lisäosaa ei ole asennettuna ja haluat käyttää sitä kehitys-web-palvelimena
-- Valitse VS Coden Extension sivulta Live Server
+- Valitse VS Coden Extension sivulta Live Server ja valitse Install
 <img src="https://nsdwww.azurewebsites.net/github-images/image013.png" width="30%">
 - Käynnistä Live Server, Go Live painikkeesta
 <img src="https://nsdwww.azurewebsites.net/github-images/image015.png" width="30%">
 
+## Testaus Chromessa
+
+- Avaa Chrome:ssa Dev Tools eli paina F12
+- Avaa Applications-välilehti. Mikäli valinta ei ole näkyvillä, se löytyy >> valinnan alta
+<img src="https://nsdwww.azurewebsites.net/github-images/image001.png" width="30%">
+- Manifest välilehti näyttää perustiedot ja virheilmoituksia, mikäli jokin ei ole kunnossa
+- Service Workers välilehti näyttää listan mahdollisista virheistä
+<img src="https://nsdwww.azurewebsites.net/github-images/image003.png" width="30%">
+- Update on reload rasti kannattaa laittaa päälle
+- Offline tilaa voi testata vaihtamalla Offline ja Update on reload rastit
+<img src="https://nsdwww.azurewebsites.net/github-images/image005.png" width="30%">
+ 
+##Muutosten päivittyminen
+
+Mikäli vaikuttaa siltä, että muutokset eivät päivity sivulle
+- Valitse Clear storage välilehti ja paina Clear site data painiketta
+<img src="https://nsdwww.azurewebsites.net/github-images/image007.png" width="30%">
+ 
+## Lighthouse-testaus
+
+PWA testauksessa kannattaa käyttää Googlen Lighthouse Chromen lisäosaa, jonka voi asentaa [täältä](https://chrome.google.com/webstore/detail/lighthouse/blipmdconlkpinefehnmjammfjpmpbjk?hl=en).
+
+- Avaa PWA sivu selaimessa ja käynnistä Lighouse
+- Valitse Generate report
+<img src="https://nsdwww.azurewebsites.net/github-images/image009.png" width="30%">
+ 
+- Avaa raportin Progressive Web App osio
+<img src="https://nsdwww.azurewebsites.net/github-images/image011.png" width="30%">
+ 
+- HTTP => HTTPS redirect tulee määrittää tuotantoympäristössä esim. Azure Web App määrityksistä
+- Virheilmoituksen oikeassa yläkulmassa olevasta nuolesta löytyy ehdotus, millä virheen voi korjata ja lisätietoja Learn more linkistä
