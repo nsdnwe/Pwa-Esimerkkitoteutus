@@ -11,7 +11,9 @@ Editorina on VS Code, johon on asennettuna [Live Server](https://marketplace.vis
 - Luo jokin tyhjä kansio ja avaa VS Code tässä kansiossa, tai käynnistä VC Code ja valitse kyseinen kansio.
 - Lisää projektiin tyhjä `index.html`.
 - Lisää projektiin tyhjä `styles.css`.
-- Lisää projektiin tyhjä `manifest.json` ja lisää sen sisällöksi esim.
+- Lisää projektiin tyhjä `manifest.json`
+- Lisää projektiin tyhjä `sw.js`
+- Lisää `manifest.json` sisällöksi esim.
 ```
 {
   "name": "PWA Sample Project",
@@ -38,9 +40,16 @@ Editorina on VS Code, johon on asennettuna [Live Server](https://marketplace.vis
 }  
 ```
 
+- Lisää `images` kansio ja sinne kolme esimerkki-kuvaa
+  - logo-192.png
+  - logo-512.png
+  - favicon.ico
+- Kuvien tulee olla 192x192px ja 512x512px kokoisia
+
 - `manifest.json` tiedoston sekä eri kokoiset ikonit voi generoida esim. tällä generaattorilla https://app-manifest.firebaseapp.com/ 
   - Vain 192x192px ja 512x512px kokoiset ikonit ovat pakollisia.
 - Lisätietoja `manifest.json` tiedoston parametreistä ym. löytyy täältä https://developers.google.com/web/fundamentals/web-app-manifest/
+
 - Lisää viittaus `manifest.json` tiedostoon `index.html`:n.
 ```
 <link rel="manifest" href="/manifest.json">
