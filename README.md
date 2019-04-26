@@ -124,11 +124,8 @@ self.addEventListener('fetch', function (event) {
 ```
 
 ## Live Server
-- Mikäli VS Code:n ei ole asennettu Live Server lisäosaa ja haluat käyttää sitä kehitysympäristönä, valitse VS Coden 
-- Käynnistä Live Server Go Live painikkeesta
-
-- Mikäli VS Code:n ei ole asennettu Live Server lisäosaa ja haluat käyttää sitä kehitysympäristönä, valitse VS Coden 
+Mikäli Server lisäosaa ei ole asennettuna ja haluat käyttää sitä kehitys-web-palvelimena, valitse VS Coden Extension sivulta Live Server
 <img src="https://nsdwww.azurewebsites.net/github-images/image013.png" width="30%">
-- Käynnistä Live Server Go Live painikkeesta
+- Käynnistä Live Server, Go Live painikkeesta
 <img src="https://nsdwww.azurewebsites.net/github-images/image015.png" width="30%">
 
