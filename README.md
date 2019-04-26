@@ -1,5 +1,5 @@
 # Pwa - Progressive Web Apps - Perusteet
-Tässä esimerkissä on käytetty editorina VS Code:a, johon on asennettuna Live Server lisäosa https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer, mutta toteutus on sama IDE:stä riippumatta. 
+Tässä esimerkissä on käytetty editorina VS Code:a, johon on asennettuna [Live Server](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer) lisäosa, mutta toteutus on sama IDE:stä riippumatta. 
 
 ## Uuden PWA web-sovelluksen toteutus vaiheittain
 - Lisää tyhjä kansio ja avaa VS Code tässä kansiossa tai käynnistä VC Code ja valitse kyseinen kansio
