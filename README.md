@@ -1,6 +1,8 @@
-# PWA Progressive Web Apps - Perusteet
+# PWA Progressive Web Apps - Toteutusesimerkki
 
 Alla kuvatussa esimerkissä on käytetty editorina VS Code:a, johon on asennettuna [Live Server](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer) lisäosa. IDE-valinnalla ei käytännössä ole merkitystä PWA järjestelmän toteutukseen. 
+
+Lisätietoja PWA:sta löytyy esim. täältä: https://koodiystava.fi/pwa-suuri-harppaus-web-sovelluksille-170d35bb8d7e
 
 ## Uuden PWA sovelluksen toteutus vaiheittain
 
@@ -129,6 +131,10 @@ self.addEventListener('fetch', function (event) {
 ```
 
 Yllä kuvattu koodi löytyy kokonaisuudessaan täältä: https://github.com/nsdnwe/Pwa-Sample
+
+### Huomioitavaa
+
+- Varsinainen PWA sovellut tulee olla responsiivinen, joten mukaan kannattaa ottaa esim. [Bootstrap kirjastot](https://getbootstrap.com/).
 
 ## Live Server
 
