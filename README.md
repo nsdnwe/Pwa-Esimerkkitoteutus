@@ -138,19 +138,19 @@ Mikäli Server lisäosaa ei ole asennettuna ja haluat käyttää sitä kehitys-w
 
 - Avaa Chrome:ssa Dev Tools eli paina F12
 - Avaa Applications-välilehti. Mikäli valinta ei ole näkyvillä, se löytyy >> valinnan alta
-<img src="https://nsdwww.azurewebsites.net/github-images/image001.png" width="30%">
+<img src="https://nsdwww.azurewebsites.net/github-images/image001.png" width="60%">
 - Manifest välilehti näyttää perustiedot ja virheilmoituksia, mikäli jokin ei ole kunnossa
 - Service Workers välilehti näyttää listan mahdollisista virheistä
-<img src="https://nsdwww.azurewebsites.net/github-images/image003.png" width="30%">
+<img src="https://nsdwww.azurewebsites.net/github-images/image003.png" width="60%">
 - Update on reload rasti kannattaa laittaa päälle
 - Offline tilaa voi testata vaihtamalla Offline ja Update on reload rastit
-<img src="https://nsdwww.azurewebsites.net/github-images/image005.png" width="30%">
+<img src="https://nsdwww.azurewebsites.net/github-images/image005.png" width="60%">
  
 ##Muutosten päivittyminen
 
 Mikäli vaikuttaa siltä, että muutokset eivät päivity sivulle
 - Valitse Clear storage välilehti ja paina Clear site data painiketta
-<img src="https://nsdwww.azurewebsites.net/github-images/image007.png" width="30%">
+<img src="https://nsdwww.azurewebsites.net/github-images/image007.png" width="60%">
  
 ## Lighthouse-testaus
 
@@ -158,10 +158,10 @@ PWA testauksessa kannattaa käyttää Googlen Lighthouse Chromen lisäosaa, jonk
 
 - Avaa PWA sivu selaimessa ja käynnistä Lighouse
 - Valitse Generate report
-<img src="https://nsdwww.azurewebsites.net/github-images/image009.png" width="30%">
+<img src="https://nsdwww.azurewebsites.net/github-images/image009.png" width="40%">
  
 - Avaa raportin Progressive Web App osio
-<img src="https://nsdwww.azurewebsites.net/github-images/image011.png" width="30%">
+<img src="https://nsdwww.azurewebsites.net/github-images/image011.png" width="60%">
  
 - HTTP => HTTPS redirect tulee määrittää tuotantoympäristössä esim. Azure Web App määrityksistä
 - Virheilmoituksen oikeassa yläkulmassa olevasta nuolesta löytyy ehdotus, millä virheen voi korjata ja lisätietoja Learn more linkistä
