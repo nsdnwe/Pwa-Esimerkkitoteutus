@@ -58,7 +58,7 @@ Kansiorakenteen tulisi nyt näyttää tältä:
 ```
 <link rel="manifest" href="/manifest.json">
 ```
-- Lisää Service Worker esimerkkikoodi eli `sw.js` tiedoston sisällöksi:
+- Lisää Service Worker esimerkkikoodi `sw.js` tiedoston sisällöksi:
 
 ```
 // Sample to cache files for off-line use
