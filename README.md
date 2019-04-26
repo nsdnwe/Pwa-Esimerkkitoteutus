@@ -170,7 +170,7 @@ Yllä kuvattu koodi löytyy kokonaisuudessaan täältä: https://github.com/nsdn
  
 ## Muutosten päivittyminen
 
-Mikäli tuntuu siltä, että `index.html` ym. tiedostoihin tehdyt muutokset eivät päivity web-palvelimen tuottamille sivulle:
+Mikäli tuntuu siltä, että `index.html` ym. tiedostoihin tehdyt muutokset eivät päivity sivulle:
 - Valitse Clear storage välilehti ja paina Clear site data painiketta.
 
 <img src="https://nsdwww.azurewebsites.net/github-images/image007.png" width="60%" />
