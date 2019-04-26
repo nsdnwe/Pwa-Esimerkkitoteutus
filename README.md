@@ -51,11 +51,13 @@ Editorina on VS Code, johon on asennettuna [Live Server](https://marketplace.vis
   - Vain 192x192px ja 512x512px kokoiset ikonit ovat pakollisia.
 - Lisätietoja `manifest.json` tiedoston parametreistä ym. löytyy täältä https://developers.google.com/web/fundamentals/web-app-manifest/
 
+Kansiorakenteen tulisi nyt näyttää tältä:
+<img src="https://nsdwww.azurewebsites.net/github-images/image000.png" width="30%">
+
 - Lisää viittaus `manifest.json` tiedostoon `index.html`:n.
 ```
 <link rel="manifest" href="/manifest.json">
 ```
-- Lisää projektiin uusi javascript-tiedosto `sw.js`.
 - Lisää `sw.js` sisällöksi:
 
 ```
