@@ -1,8 +1,8 @@
 # PWA Progressive Web Apps - Perusteet
 
-Alla esimerkissä on käytetty editorina VS Code:a, johon on asennettuna [Live Server](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer) lisäosa. IDE-valinnalla ei käytännössä ole merkitystä PWA järjestelmän toteutukseeen. 
+Alla kuvatussa esimerkissä on käytetty editorina VS Code:a, johon on asennettuna [Live Server](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer) lisäosa. IDE-valinnalla ei käytännössä ole merkitystä PWA järjestelmän toteutukseen. 
 
-## Uuden PWA web-sovelluksen toteutus vaiheittain
+## Uuden PWA sovelluksen toteutus vaiheittain
 
 - Lisää tyhjä kansio ja avaa VS Code tässä kansiossa, tai käynnistä VC Code ja valitse kyseinen kansio.
 - Lisää projektiin tyhjä `index.html`.
@@ -38,7 +38,9 @@ Alla esimerkissä on käytetty editorina VS Code:a, johon on asennettuna [Live S
   - Vain 192x192px ja 512x512px kokoiset ikonit ovat pakollisia.
 - Lisätietoja `manifest.json` tiedoston parametreistä ym. löytyy täältä https://developers.google.com/web/fundamentals/web-app-manifest/
 - Lisää viittaus `manifest.json` tiedostoon `index.html`:n.
-```link rel="manifest" href="/manifest.json">```
+```
+<link rel="manifest" href="/manifest.json">
+```
 - Lisää projektiin uusi javascript-tiedosto `sw.js`.
 - Lisää `sw.js` sisällöksi:
 
@@ -100,14 +102,14 @@ self.addEventListener('fetch', function (event) {
 ```
 - Yllä kuvattu  `sw.js` cachettaa halutut tiedostot offline käyttöä varten. Cachetettava tiedostot määritetään `sw.js` tiedoston alussa olevalla listalla.
 - Lisätietoja Service Worker avulla toteutettavista toiminnoista ja parametreista löytyy täältä https://serviceworke.rs/
-- Lisää `index.html` vielä Service Worker:in kutsu, jonka jälkeen `index.html` näyttää tältä
+- Lisää `index.html` vielä Service Worker:in (`sw.js`) kutsu, jonka jälkeen `index.html` näyttää tältä:
 ```
 <!DOCTYPE html>
 <html>
 <head>
     <title></title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />
-	<meta charset="utf-8" />
+    <meta charset="utf-8" />
     <link rel="manifest" href="/manifest.json">
     <link rel="icon" type="image/png" href="/images/favicon.ico">
     <link href="styles.css" rel="stylesheet" />
@@ -130,7 +132,7 @@ Yllä kuvattu koodi löytyy kokonaisuudessaan täältä: https://github.com/nsdn
 
 ## Live Server
 
-Mikäli Live Server lisäosaa ei ole asennettuna VS Code:n ja haluat käyttää sitä kehityksessä web-palvelimena.
+Mikäli Live Server lisäosaa ei ole asennettuna VS Code:n ja haluat käyttää sitä kehityksessä web-palvelimena:
 - Valitse VS Coden Extension sivulta Live Server ja valitse Install.
 <img src="https://nsdwww.azurewebsites.net/github-images/image013.png" width="30%">
 - Käynnistä Live Server, Go Live painikkeesta.
@@ -140,18 +142,24 @@ Mikäli Live Server lisäosaa ei ole asennettuna VS Code:n ja haluat käyttää 
 
 - Avaa Chrome Dev Tools eli paina F12.
 - Avaa Applications-välilehti. Mikäli valinta ei ole näkyvillä, se löytyy >> valinnan alta.
+
 <img src="https://nsdwww.azurewebsites.net/github-images/image001.png" width="60%">
+
 - Manifest välilehti näyttää perustiedot ja virheilmoituksia, mikäli jokin ei ole kunnossa.
 - Service Workers välilehti näyttää listan mahdollisista virheistä.
+
 <img src="https://nsdwww.azurewebsites.net/github-images/image003.png" width="60%">
+
 - Update on reload rasti kannattaa laittaa päälle.
 - Offline tilaa voi testata vaihtamalla Offline ja Update on reload rastit.
+
 <img src="https://nsdwww.azurewebsites.net/github-images/image005.png" width="60%">
  
 ## Muutosten päivittyminen
 
 Mikäli tuntuu siltä, että `index.html` ym. tiedostoihin muutokset eivät päivity web-palvelimen tuottamille sivulle:
 - Valitse Clear storage välilehti ja paina Clear site data painiketta
+
 <img src="https://nsdwww.azurewebsites.net/github-images/image007.png" width="60%">
  
 ## Lighthouse-testaus
@@ -160,9 +168,11 @@ PWA testauksessa suosittelen käyttämään `Google Lighthouse` Chrome lisäosaa
 
 - Avaa PWA sivu selaimessa ja käynnistä Lighouse.
 - Valitse Generate report.
+
 <img src="https://nsdwww.azurewebsites.net/github-images/image009.png" width="40%">
  
 - Avaa raportin Progressive Web App osio.
+
 <img src="https://nsdwww.azurewebsites.net/github-images/image011.png" width="60%">
  
 - Jotta HTTP => HTTPS redirect virheilmoitusta ei tule, täytyy tuotantoympäristössä eli esim. Azure Web App määrityksistä määrittää HTTPS redirect pakolliseksi
