@@ -3,10 +3,9 @@ Tässä esimerkissä on käytetty editorina VS Code:a, johon on asennettuna Live
 
 ## Uuden PWA web-sovelluksen toteutus vaiheittain
 - Lisää tyhjä kansio ja avaa VS Code tässä kansiossa tai käynnistä VC Code ja valitse kyseinen kansio
-- Lisää projektiin index.html
-- Lisää projektiin styles.css
-  - CSS tiedoston ei tarvitse sisältää mitään tietoa, se on vain esimerkkinä myöhempää käyttöä varten
-- Lisää projektiin manifest.json ja lisää sen sisällöksi esim.
+- Lisää projektiin tyhjä index.html
+- Lisää projektiin tyhjä styles.css
+- Lisää projektiin tyjjä manifest.json ja lisää sen sisällöksi esim.
 ```
 {
   "name": "PWA Sample Project",
