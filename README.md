@@ -148,7 +148,7 @@ Yllä kuvattu koodi löytyy kokonaisuudessaan täältä: https://github.com/nsdn
 
 ### Huomioitavaa
 
-- Varsinainen PWA sovellus tulee olla responsiivinen, joten mukaan kannattaa ottaa esim. [Bootstrap kirjastot](https://getbootstrap.com/).
+- Varsinainen PWA sovellus tulee olla responsiivinen, joten mukaan kannattaa ottaa lisäksi esim. [Bootstrap kirjastot](https://getbootstrap.com/).
 
 ## PWA sovelluksen testaus Chromessa
 
