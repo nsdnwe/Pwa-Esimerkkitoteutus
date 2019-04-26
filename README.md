@@ -167,7 +167,7 @@ Mikäli tuntuu siltä, että `index.html` ym. tiedostoihin tehdyt muutokset eiv�
 PWA testauksessa suosittelen käyttämään Chrome lisäosaa: Google Lighthouse, jonka voi asentaa [täältä](https://chrome.google.com/webstore/detail/lighthouse/blipmdconlkpinefehnmjammfjpmpbjk?hl=en).
 
 Lighthouse:n käyttö tapahtuu seuraavasti:
-- Käynnistä Lighthouse.
+- Käynnistä Lighthouse Chromen toolbar:ista.
 - Valitse Generate report.
 
 <img src="https://nsdwww.azurewebsites.net/github-images/image009.png" width="40%" />
