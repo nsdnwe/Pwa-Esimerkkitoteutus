@@ -142,31 +142,32 @@ Mikäli Live Server lisäosaa ei ole asennettuna VS Code:n ja haluat käyttää 
 
 - Avaa Chrome Dev Tools eli paina F12.
 - Avaa Applications-välilehti. Mikäli valinta ei ole näkyvillä, se löytyy >> valinnan alta.
+- Manifest välilehti näyttää perustiedot ja virheilmoituksia, mikäli jokin määritys ei ole kunnossa `manifest.json` tiedostossa.
 
 <img src="https://nsdwww.azurewebsites.net/github-images/image001.png" width="60%">
 
-- Manifest välilehti näyttää perustiedot ja virheilmoituksia, mikäli jokin ei ole kunnossa.
-- Service Workers välilehti näyttää listan mahdollisista virheistä.
+- Service Workers välilehti näyttää listan mahdollisista virheistä liittyen Service Worker:iin.
 
 <img src="https://nsdwww.azurewebsites.net/github-images/image003.png" width="60%">
 
-- Update on reload rasti kannattaa laittaa päälle.
+- Update on reload rasti kannattaa laittaa päälle, jotta Service Worker päivittyy koodiin tehtyjen muutosten jälkeen.
 - Offline tilaa voi testata vaihtamalla Offline ja Update on reload rastit.
 
 <img src="https://nsdwww.azurewebsites.net/github-images/image005.png" width="60%">
  
 ## Muutosten päivittyminen
 
-Mikäli tuntuu siltä, että `index.html` ym. tiedostoihin muutokset eivät päivity web-palvelimen tuottamille sivulle:
-- Valitse Clear storage välilehti ja paina Clear site data painiketta
+Mikäli tuntuu siltä, että `index.html` ym. tiedostoihin tehdyt muutokset eivät päivity web-palvelimen tuottamille sivulle:
+- Valitse Clear storage välilehti ja paina Clear site data painiketta.
 
 <img src="https://nsdwww.azurewebsites.net/github-images/image007.png" width="60%">
  
 ## Lighthouse-testaus
 
-PWA testauksessa suosittelen käyttämään `Google Lighthouse` Chrome lisäosaa, jonka voi asentaa [täältä](https://chrome.google.com/webstore/detail/lighthouse/blipmdconlkpinefehnmjammfjpmpbjk?hl=en).
+PWA testauksessa suosittelen käyttämään Chrome lisäosaa: Google Lighthouse, jonka voi asentaa [täältä](https://chrome.google.com/webstore/detail/lighthouse/blipmdconlkpinefehnmjammfjpmpbjk?hl=en).
 
-- Avaa PWA sivu selaimessa ja käynnistä Lighouse.
+Lighthouse:n käyttö tapahtuu seuraavasti:
+- Käynnistä Lighthouse.
 - Valitse Generate report.
 
 <img src="https://nsdwww.azurewebsites.net/github-images/image009.png" width="40%">
@@ -175,5 +176,5 @@ PWA testauksessa suosittelen käyttämään `Google Lighthouse` Chrome lisäosaa
 
 <img src="https://nsdwww.azurewebsites.net/github-images/image011.png" width="60%">
  
-- Jotta HTTP => HTTPS redirect virheilmoitusta ei tule, täytyy tuotantoympäristössä eli esim. Azure Web App määrityksistä määrittää HTTPS redirect pakolliseksi
+- Jotta HTTP => HTTPS redirect virheilmoitusta ei tule, täytyy tuotantoympäristössä eli esim. Azure Web App määrityksistä määrittää HTTPS redirect pakolliseksi.
 - Virheilmoitusten oikeassa yläkulmassa olevasta nuolesta löytyy suositus, millä virheen voi korjata sekä lisätietoja Learn more linkistä.
