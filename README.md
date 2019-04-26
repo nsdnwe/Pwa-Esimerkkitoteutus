@@ -1,14 +1,12 @@
 # Pwa - Progressive Web Apps - Perusteet
-Tässä esimerkissä on käytetty editorina VS2015, mutta toteutus on sama IDE:stä riippumatta.
-Alla kuvattu esimerkki PWA applikaatio löytyy kokonaisuudessaan täältä:
+Tässä esimerkissä on käytetty editorina VS Code:a, johon on asennettuna Live Server lisäosa https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer, mutta toteutus on sama IDE:stä riippumatta. 
 
-Toteutus vaiheittain:
--	Tee uusi web site
-  -	Valite VS:n menusta: File, New Web Site
+## Uuden PWA web-sovelluksen toteutus vaiheittain
+- Lisää tyhjä kansio ja avaa VS Code tässä kansiossa tai käynnistä VC Code ja valitse kyseinen kansio
 - Lisää projektiin index.html
 - Lisää projektiin styles.css
-  - Tiedoston ei tarvitse sisältää mitään tietoa, se on vain esimerkkinä myöhempää käyttöä varten
--	Lisää projektiin manifest.json ja sen sisällöksi esim.
+  - CSS tiedoston ei tarvitse sisältää mitään tietoa, se on vain esimerkkinä myöhempää käyttöä varten
+- Lisää projektiin manifest.json ja lisää sen sisällöksi esim.
 ```
 {
   "name": "PWA Sample Project",
@@ -34,13 +32,13 @@ Toteutus vaiheittain:
   ]
 }  
 ```
--	manifest.json sekä eri kokoiset ikonit voi generoida esim. tällä generaattorilla https://app-manifest.firebaseapp.com/ 
-  -	Vain 192x192px ja 512x512px kokoiset ikonit ovat pakollisia
--	Lisätietoja manifest.json parametreistä ym. löytyy täältä https://developers.google.com/web/fundamentals/web-app-manifest/
--	Lisää viittaus manifest.json tiedostoon index.html:n
+- manifest.json sekä eri kokoiset ikonit voi generoida esim. tällä generaattorilla https://app-manifest.firebaseapp.com/ 
+  - Vain 192x192px ja 512x512px kokoiset ikonit ovat pakollisia
+- Lisätietoja manifest.json parametreistä ym. löytyy täältä https://developers.google.com/web/fundamentals/web-app-manifest/
+- Lisää viittaus manifest.json tiedostoon index.html:n
 ```link rel="manifest" href="/manifest.json">```
--	Lisää projektiin uusi javascript-tiedosto sw.js
--	Lisää sw.js sisällöksi
+- Lisää projektiin uusi javascript-tiedosto sw.js
+- Lisää sw.js sisällöksi
 ```
 // Sample to cache files for off-line use
 
@@ -97,9 +95,9 @@ self.addEventListener('fetch', function (event) {
     );
 });
 ```
--	Esimerkki sw.js cachettaa halutut tiedostot offline käyttöä varten. Tiedostot valitaan listassa sw.js tiedoston alussa.
--	Lisätietoja Service Worker kautta toteutettavista toiminnoista ja parametreista löytyy täältä https://serviceworke.rs/
--	Lisää index.html Service Worker:in kutsu, jonka jälkeen index.html näyttää tältä
+- Yllä kuvattu esimerkki sw.js cachettaa halutut tiedostot offline käyttöä varten. Cachetettava tiedostot valitaan listassa sw.js tiedoston alussa.
+- Lisätietoja Service Worker avulla toteutettavista toiminnoista ja parametreista löytyy täältä https://serviceworke.rs/
+- Lisää index.html Service Worker:in kutsu, jonka jälkeen index.html näyttää tältä
 ```
 <!DOCTYPE html>
 <html>
@@ -125,3 +123,8 @@ self.addEventListener('fetch', function (event) {
 </html>
 ```
 
+## Live Server
+- Mikäli VS Code:n ei ole asennettu Live Server lisäosaa ja haluat käyttää sitä kehitysympäristönä, valitse VS Coden 
+- Käynnistä Live Server Go Live painikkeesta
+
+!(https://nsdwww.azurewebsites.net/github-images/image013.png)
