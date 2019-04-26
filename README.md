@@ -47,7 +47,7 @@ Editorina on VS Code, johon on asennettuna [Live Server](https://marketplace.vis
 - Kuvien tulee olla 192x192px ja 512x512px kokoisia. 
 - `favicon.ico` tiedosto voi olla jokin esimerkki favicon, joita löytyy paljon Googlen avulla.
 
-- **HUOM** `manifest.json` tiedoston sekä eri kokoiset ikonit voi generoida esim. tällä generaattorilla https://app-manifest.firebaseapp.com/ 
+- **Vaihtoehtoisesti** `manifest.json` tiedoston sekä eri kokoiset ikonit voi generoida esim. tällä generaattorilla https://app-manifest.firebaseapp.com/ 
   - Vain 192x192px ja 512x512px kokoiset ikonit ovat pakollisia.
 - Lisätietoja `manifest.json` tiedoston parametreistä ym. löytyy täältä https://developers.google.com/web/fundamentals/web-app-manifest/
 
