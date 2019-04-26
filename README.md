@@ -1,4 +1,4 @@
-# Pwa perusteet
+# Pwa - Progressive Web Apps - Perusteet
 Tässä esimerkissä on käytetty editorina VS2015, mutta toteutus on sama IDE:stä riippumatta.
 Alla kuvattu esimerkki PWA applikaatio löytyy kokonaisuudessaan täältä:
 
@@ -38,7 +38,7 @@ Toteutus vaiheittain:
   -	Vain 192x192px ja 512x512px kokoiset ikonit ovat pakollisia
 -	Lisätietoja manifest.json parametreistä ym. löytyy täältä https://developers.google.com/web/fundamentals/web-app-manifest/
 -	Lisää viittaus manifest.json tiedostoon index.html:n
-  -	<link rel="manifest" href="/manifest.json">
+```link rel="manifest" href="/manifest.json">```
 -	Lisää projektiin uusi javascript-tiedosto sw.js
 -	Lisää sw.js sisällöksi
 ```
@@ -124,4 +124,4 @@ self.addEventListener('fetch', function (event) {
 </body>
 </html>
 ```
-- 
+
