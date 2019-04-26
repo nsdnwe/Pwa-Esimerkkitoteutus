@@ -8,7 +8,7 @@ Editorina on VS Code, johon on asennettuna [Live Server](https://marketplace.vis
 
 ## Uuden PWA sovelluksen toteutus vaiheittain
 
-- Lisää tyhjä kansio ja avaa VS Code tässä kansiossa, tai käynnistä VC Code ja valitse kyseinen kansio.
+- Luo jokin tyhjä kansio ja avaa VS Code tässä kansiossa, tai käynnistä VC Code ja valitse kyseinen kansio.
 - Lisää projektiin tyhjä `index.html`.
 - Lisää projektiin tyhjä `styles.css`.
 - Lisää projektiin tyhjä `manifest.json` ja lisää sen sisällöksi esim.
