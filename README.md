@@ -119,7 +119,7 @@ self.addEventListener('fetch', function (event) {
 ```
 - Yllä kuvattu  `sw.js` cachettaa halutut tiedostot offline käyttöä varten. Cachetettava tiedostot määritetään `sw.js` tiedoston alussa olevalla listalla.
 - Lisätietoja Service Worker avulla toteutettavista toiminnoista ja parametreista löytyy täältä https://serviceworke.rs/
-- Lisää `index.html` vielä Service Worker:in (`sw.js`) kutsu, jonka jälkeen `index.html` näyttää tältä:
+- Lisää `index.html` tiedostoon vielä Service Worker:in (`sw.js`) kutsu, jonka jälkeen `index.html` näyttää tältä:
 ```
 <!DOCTYPE html>
 <html>
