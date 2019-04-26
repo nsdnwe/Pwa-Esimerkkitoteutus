@@ -162,8 +162,6 @@ Mikäli tuntuu siltä, että `index.html` ym. tiedostoihin tehdyt muutokset eiv�
 
 <img src="https://nsdwww.azurewebsites.net/github-images/image007.png" width="60%" />
 
-## Xxxx
- 
 ## Lighthouse testaus
 
 PWA testauksessa suosittelen käyttämään Chrome lisäosaa: Google Lighthouse, jonka voi asentaa [täältä](https://chrome.google.com/webstore/detail/lighthouse/blipmdconlkpinefehnmjammfjpmpbjk?hl=en).
