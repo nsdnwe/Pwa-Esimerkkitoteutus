@@ -1,4 +1,4 @@
-# PWA Progressive Web Apps - Toteutusesimerkki
+# PWA Progressive Web Apps - Esimerkkitoteutus
 
 *Mikäli PWA:n periaatteet eivät ole entuudestaan tuttuja, löytyy hyvä kuvaus PWA:sta esim. täältä https://koodiystava.fi/pwa-suuri-harppaus-web-sovelluksille-170d35bb8d7e*
 
