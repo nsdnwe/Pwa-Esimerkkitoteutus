@@ -52,7 +52,8 @@ Editorina on VS Code, johon on asennettuna [Live Server](https://marketplace.vis
 - Lisätietoja `manifest.json` tiedoston parametreistä ym. löytyy täältä https://developers.google.com/web/fundamentals/web-app-manifest/
 
 Kansiorakenteen tulisi nyt näyttää tältä:
-<img src="https://nsdwww.azurewebsites.net/github-images/image000.png" width="30%">
+
+<img src="https://nsdwww.azurewebsites.net/github-images/image000.png" width="50%">
 
 - Lisää viittaus `manifest.json` tiedostoon `index.html`:n.
 ```
