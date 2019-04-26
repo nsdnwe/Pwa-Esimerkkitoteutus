@@ -149,7 +149,7 @@ Yllä kuvattu koodi löytyy kokonaisuudessaan täältä: https://github.com/nsdn
 
 ### Huomioitavaa
 
-- Varsinainen PWA sovellut tulee olla responsiivinen, joten mukaan kannattaa ottaa esim. [Bootstrap kirjastot](https://getbootstrap.com/).
+- Varsinainen PWA sovellus tulee olla responsiivinen, joten mukaan kannattaa ottaa esim. [Bootstrap kirjastot](https://getbootstrap.com/).
 
 ## Live Server
 
