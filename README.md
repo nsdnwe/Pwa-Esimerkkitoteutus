@@ -161,6 +161,8 @@ Mikäli tuntuu siltä, että `index.html` ym. tiedostoihin tehdyt muutokset eiv�
 - Valitse Clear storage välilehti ja paina Clear site data painiketta.
 
 <img src="https://nsdwww.azurewebsites.net/github-images/image007.png" width="60%" />
+
+## Xxxx
  
 ## Lighthouse testaus
 
