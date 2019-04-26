@@ -151,15 +151,7 @@ Yllä kuvattu koodi löytyy kokonaisuudessaan täältä: https://github.com/nsdn
 
 - Varsinainen PWA sovellus tulee olla responsiivinen, joten mukaan kannattaa ottaa esim. [Bootstrap kirjastot](https://getbootstrap.com/).
 
-## Live Server
-
-Mikäli Live Server lisäosaa ei ole asennettuna VS Code:n ja haluat käyttää sitä kehityksessä web-palvelimena:
-- Valitse VS Coden Extension sivulta Live Server ja valitse Install.
-<img src="https://nsdwww.azurewebsites.net/github-images/image013.png" width="30%">
-- Käynnistä Live Server, Go Live painikkeesta.
-<img src="https://nsdwww.azurewebsites.net/github-images/image015.png" width="30%">
-
-## Testaus Chromessa
+## PWA sovelluksen testaus Chromessa
 
 - Avaa Chrome Dev Tools eli paina F12.
 - Avaa Applications-välilehti. Mikäli valinta ei ole näkyvillä, se löytyy >> valinnan alta.
@@ -183,7 +175,7 @@ Mikäli tuntuu siltä, että `index.html` ym. tiedostoihin tehdyt muutokset eiv�
 
 <img src="https://nsdwww.azurewebsites.net/github-images/image007.png" width="60%" />
 
-## Lighthouse testaus
+## PWA sovelluksen Lighthouse testaus
 
 PWA testauksessa suosittelen käyttämään Chrome lisäosaa: Google Lighthouse, jonka voi asentaa [täältä](https://chrome.google.com/webstore/detail/lighthouse/blipmdconlkpinefehnmjammfjpmpbjk?hl=en).
 
@@ -199,3 +191,12 @@ Lighthouse:n käyttö tapahtuu seuraavasti:
  
 - Jotta HTTP => HTTPS redirect virheilmoitusta ei tule, täytyy tuotantoympäristössä eli esim. Azure Web App määrityksistä määrittää HTTPS redirect pakolliseksi.
 - Virheilmoitusten oikeassa yläkulmassa olevasta nuolesta löytyy suositus, millä virheen voi korjata sekä lisätietoja Learn more linkistä.
+
+## Live Server asennus
+
+Mikäli Live Server lisäosaa ei ole asennettuna VS Code:n ja haluat käyttää sitä kehityksessä web-palvelimena:
+- Valitse VS Coden Extension sivulta Live Server ja valitse Install.
+<img src="https://nsdwww.azurewebsites.net/github-images/image013.png" width="30%">
+- Käynnistä Live Server, Go Live painikkeesta.
+<img src="https://nsdwww.azurewebsites.net/github-images/image015.png" width="30%">
+
