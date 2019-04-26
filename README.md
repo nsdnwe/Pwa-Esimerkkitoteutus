@@ -2,7 +2,9 @@
 
 *Mikäli PWA:n periaatteet eivät ole entuudestaan tuttuja, löytyy hyvä kuvaus PWA:sta esim. täältä https://koodiystava.fi/pwa-suuri-harppaus-web-sovelluksille-170d35bb8d7e*
 
-Alla kuvatussa esimerkissä on käytetty läpi vaiheittain miten hyvin yksinkertainen PWA web-sivusto toteutetaan. Editorina on VS Code, johon on asennettuna [Live Server](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer) lisäosa. IDE-valinnalla ei  ole  merkitystä PWA järjestelmän toteutuksessa, olennaista on että IDE sopii hyvin web-sovellusten kehitykseen. 
+Alla kuvatussa esimerkissä on käytetty läpi vaiheittain miten yksinkertainen PWA web-sivusto toteutetaan. 
+
+Editorina on VS Code, johon on asennettuna [Live Server](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer) lisäosa. IDE-valinnalla ei  ole  merkitystä PWA järjestelmän toteutuksessa, olennaista on että IDE sopii hyvin web-sovellusten kehitykseen. 
 
 ## Uuden PWA sovelluksen toteutus vaiheittain
 
