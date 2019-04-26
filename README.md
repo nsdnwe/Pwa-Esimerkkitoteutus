@@ -1,8 +1,8 @@
 # PWA Progressive Web Apps - Toteutusesimerkki
 
-Alla kuvatussa esimerkissä on käytetty editorina VS Code:a, johon on asennettuna [Live Server](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer) lisäosa. IDE-valinnalla ei käytännössä ole merkitystä PWA järjestelmän toteutukseen. 
+*Mikäli PWA:n periaatteet eivät ole entuudestaan tuttuja, löytyy hyvä kuvaus esim. täältä https://koodiystava.fi/pwa-suuri-harppaus-web-sovelluksille-170d35bb8d7e*
 
-Lisätietoja PWA:sta löytyy esim. täältä: https://koodiystava.fi/pwa-suuri-harppaus-web-sovelluksille-170d35bb8d7e
+Alla kuvatussa esimerkissä on käytetty editorina VS Code:a, johon on asennettuna [Live Server](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer) lisäosa. IDE-valinnalla ei käytännössä ole merkitystä PWA järjestelmän toteutukseen. 
 
 ## Uuden PWA sovelluksen toteutus vaiheittain
 
