@@ -4,7 +4,7 @@ PWA on tapa toteuttaa Android/iOS mobiili-sovellusten tyyppisiä sovelluksia yks
 
 PWA sovellukset eivät ole käännettyjä natiiveja sovelluksia vaan tavallisia web-sivustoja eli web app:eja, joita suoritetaan mobiililaitteen selaimessa. Tämän lisäksi:
 -	PWA sovellukset näyttävät samalta kuin natiivit mobiili-applikaatiot.
--	PWA sovellukset tukevat offline käyttöä sekä Push-notifikaatioita.
+-	PWA sovellukset tukevat offline-käyttöä sekä Push-notifikaatioita.
 -	PWA sovellukset ovat asennettavissa ja käynnistettävissä puhelimesta samalla tavoin kuin natiivi-applikaatiot eli ne sisältävät käynnistysikonit sekä käynnistyksen aikaisen splash-näytön.
 
 PWA tuotantoasennus ei vaadi mitään erityistä verrattuna normaaliin web-app asennukseen eli esim. Azure tai AWS asennus toimii perusasetuksilla.
