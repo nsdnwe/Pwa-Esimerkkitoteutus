@@ -2,7 +2,7 @@
 
 PWA on tapa toteuttaa Android/iOS mobiili-sovellusten tyyppisiä sovelluksia yksinkertaisesti ja nopeasti HTML ja JavaScript teknologioilla ilman ylimääräisiä kirjastoja tai framework:eja.
 
-PWA sovellukset eivät ole käännettyjä natiiveja sovelluksia vaan tavallisia web-sivustoja eli web app:eja, joita suoritetaan mobiililaitteen selaimessa. Tämän lisäksi:
+PWA sovellukset eivät ole käännettyjä natiiveja sovelluksia vaan tavallisia web-sivustoja eli web-app:eja, joita suoritetaan mobiililaitteen selaimessa. Tämän lisäksi:
 -	PWA sovellukset näyttävät samalta kuin natiivit mobiili-applikaatiot.
 -	PWA sovellukset tukevat offline-käyttöä sekä Push-notifikaatioita.
 -	PWA sovellukset ovat asennettavissa ja käynnistettävissä puhelimesta samalla tavoin kuin natiivi-applikaatiot eli ne sisältävät käynnistysikonit sekä käynnistyksen aikaisen splash-näytön.
@@ -22,7 +22,7 @@ Tarkempi kuvaus PWA:sta löytyy esim. näiltä kahdelta sivulta:
 
 ## Yksinkertaisen PWA sovelluksen toteutus vaiheittain
 
-Alla kuvatussa esimerkissä on käytetty läpi vaiheittain miten yksinkertainen PWA web-sivusto toteutetaan. 
+Alla kuvatussa esimerkissä on käytetty läpi vaiheittain miten yksinkertainen PWA web-app toteutetaan. 
 
 Editorina on VS Code, johon on asennettuna [Live Server](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer) lisäosa. IDE-valinnalla ei  ole  merkitystä PWA järjestelmän toteutuksessa, olennaista on että IDE sopii hyvin web-sovellusten kehitykseen. 
 
