@@ -1,6 +1,6 @@
 # PWA Progressive Web Apps - Perusteet
 
-PWA on tapa toteuttaa Android/iOS mobiili sovellusten tyyppisiä sovelluksia yksinkertaisesti ja nopeasti HTML ja JavaScript teknologioilla ilman ylimääräisiä kirjastoja tai framework:eja.
+PWA on tapa toteuttaa Android/iOS mobiili-sovellusten tyyppisiä sovelluksia yksinkertaisesti ja nopeasti HTML ja JavaScript teknologioilla ilman ylimääräisiä kirjastoja tai framework:eja.
 
 PWA sovellukset eivät ole käännettyjä natiiveja sovelluksia vaan web siteja (web app), joita suoritetaan mobiililaitteen selaimessa. Tämän lisäksi:
 -	PWA sovellukset näyttävät samalta kuin natiivi-applikaatiot.
