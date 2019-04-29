@@ -9,7 +9,7 @@ PWA sovellukset eivät ole käännettyjä natiiveja sovelluksia vaan tavallisia 
 
 PWA tuotantoasennus ei vaadi mitään erityistä verrattuna normaaliin web-app asennukseen eli esim. Azure tai AWS asennus toimii perusasetuksilla.
 
-PWA sovelluksia voi nyt myydä myös Google Play:n kautta. Mitään apk-tiedostoa ei kuitenkaan asenneta, vaan ainoastaan linkki PWA web-app sivulle + lisenssikoodi.
+PWA sovelluksia voi myydä Google Play:n kautta. Mitään apk-tiedostoa ei kuitenkaan asenneta, vaan ainoastaan linkki PWA web-app sivulle + lisenssikoodi.
 
 Jotta mobiililaitteen selain hyväksyy PWA sovelluksen, sen tulee täyttää tietyt kriteerit. Näitä ovat:
 -	Sivujen tulee olla responsiivisia eli skaalautua päätelaitteen näytön mukaan.
