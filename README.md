@@ -2,11 +2,10 @@
 
 PWA on tapa toteuttaa Android/iOS mobiili sovellusten tapaisia sovelluksia yksinkertaisesti ja nopeasti HTML ja JavaScript teknologioilla. 
 
-PWA sovellukset eivät ole käännettyjä natiiveja sovelluksia vaan ”web-app:eja”, joita suoritetaan mobiililaitteen selaimessa mutta lisäksi
-
--	PWA sovellukset näyttävät samalta kuin natiivi-applikaatiot
--	PWA sovellukset tukevat offline käyttöä sekä Push-notifikaatioita
--	PWA sovellukset ovat asennettavissa ja käynnistettävissä puhelimesta samalla tavoin kuin natiivi-applikaatiot eli ne sisältävät käynnistysikonit sekä käynnistyksen aikaisen splash-näytön
+PWA sovellukset eivät ole käännettyjä natiiveja sovelluksia vaan web siteja (web app), joita suoritetaan mobiililaitteen selaimessa. Tämän lisäksi:
+-	PWA sovellukset näyttävät samalta kuin natiivi-applikaatiot.
+-	PWA sovellukset tukevat offline käyttöä sekä Push-notifikaatioita.
+-	PWA sovellukset ovat asennettavissa ja käynnistettävissä puhelimesta samalla tavoin kuin natiivi-applikaatiot eli ne sisältävät käynnistysikonit sekä käynnistyksen aikaisen splash-näytön.
 
 PWA toteutus tapahtuu HTML5 + CSS3 + JavaScript:n avulla. Toteutus ei vaadi mitään lisäkirjastoja tai framework:eja.
 
@@ -14,12 +13,12 @@ PWA tuotantoasennus ei vaadi mitään erityistä verrattuna normaaliin web-app a
 
 PWA sovelluksia voi nyt myydä myös Google Play:n kautta. Mitään apk-tiedostoa ei kuitenkaan asenneta, vaan ainoastaan linkki PWA web-app sivulle + lisenssikoodi.
 
-Jotta mobiililaitteen selain hyväksyy PWA sovelluksen, sen tulee täyttää tietyt kriteerit. Näitä ovat
--	Sivujen tulee olla responsiivisia eli skaalautua päätelaitteen näytön mukaan
--	Service worker teknologian avulla sovelluksen tulee tukea offline tilaa
--	SSL tulee olla käytössä kaikessa tietoliikenteessä
+Jotta mobiililaitteen selain hyväksyy PWA sovelluksen, sen tulee täyttää tietyt kriteerit. Näitä ovat:
+-	Sivujen tulee olla responsiivisia eli skaalautua päätelaitteen näytön mukaan.
+-	Service worker teknologian avulla sovelluksen tulee tukea offline tilaa.
+-	SSL tulee olla käytössä kaikessa tietoliikenteessä.
 
-Tarkempi kuvaus PWA:sta löytyy esim. näistä kahdesta paikasta
+Tarkempi kuvaus PWA:sta löytyy esim. näiltä kahdelta sivulta:
 - https://koodiystava.fi/pwa-suuri-harppaus-web-sovelluksille-170d35bb8d7e
 - https://developers.google.com/web/progressive-web-apps/
 
