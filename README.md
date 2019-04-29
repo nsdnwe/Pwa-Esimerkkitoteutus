@@ -29,8 +29,8 @@ Editorina on VS Code, johon on asennettuna [Live Server](https://marketplace.vis
 - Luo jokin tyhjä kansio ja avaa VS Code tässä kansiossa, tai käynnistä VS Code ja valitse kyseinen kansio.
 - Lisää projektiin tyhjä `index.html`.
 - Lisää projektiin tyhjä `styles.css`.
-- Lisää projektiin tyhjä `manifest.json`.
 - Lisää projektiin tyhjä `sw.js`.
+- Lisää projektiin tyhjä `manifest.json`.
 - Lisää `manifest.json` sisällöksi esim.
 ```
 {
