@@ -1,12 +1,31 @@
-# PWA Progressive Web Apps - Esimerkkitoteutus
+# PWA Progressive Web Apps - Perusteet
 
-*Mikäli PWA:n periaatteet eivät ole entuudestaan tuttuja, löytyy hyvä kuvaus PWA:sta esim. täältä https://koodiystava.fi/pwa-suuri-harppaus-web-sovelluksille-170d35bb8d7e*
+PWA on tapa toteuttaa Android/iOS mobiileja sovelluksia. PWA sovellukset eivät ole käännettyjä natiiveja sovelluksia vaan ”web-app:eja”, joita suoritetaan mobiililaitteen selaimessa mutta lisäksi
+
+-	PWA sovellukset näyttävät samalta kuin natiivi-applikaatiot
+-	PWA sovellukset tukevat offline käyttöä sekä Push-notifikaatioita
+-	PWA sovellukset ovat asennettavissa ja käynnistettävissä puhelimesta samalla tavoin kuin natiivi-applikaatiot eli ne sisältävät käynnistysikonit sekä käynnistyksen aikaisen splash-näytön
+
+PWA toteutus tapahtuu HTML5 + Javascript avulla. Toteutus ei vaadi mitään lisäkirjastoja tai framework:eja.
+
+PWA tuotantoasennus ei vaadi mitään erityistä verrattuna normaaliin web-app asennukseen eli esim. Azure tai AWS asennus toimii perusasetuksilla.
+
+PWA sovelluksia voi nyt myydä myös Google Play:n kautta. Mitään apk-tiedostoa ei kuitenkaan asenneta, vaan ainoastaan linkki PWA web-app sivulle + lisenssikoodi.
+
+Jotta mobiililaitteen selain hyväksyy PWA sovelluksen, sen tulee täyttää tietyt kriteerit. Näitä ovat
+-	Sivujen tulee olla responsiivisia eli skaalautua päätelaitteen näytön mukaan
+-	Service worker teknologian avulla sovelluksen tulee tukea offline tilaa
+-	SSL tulee olla käytössä kaikessa tietoliikenteessä
+
+Tarkempi kuvaus PWA:sta löytyy esim. näistä kahdesta paikasta
+- https://koodiystava.fi/pwa-suuri-harppaus-web-sovelluksille-170d35bb8d7e
+- https://developers.google.com/web/progressive-web-apps/
+
+## Yksinkertaisen PWA sovelluksen toteutus vaiheittain
 
 Alla kuvatussa esimerkissä on käytetty läpi vaiheittain miten yksinkertainen PWA web-sivusto toteutetaan. 
 
 Editorina on VS Code, johon on asennettuna [Live Server](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer) lisäosa. IDE-valinnalla ei  ole  merkitystä PWA järjestelmän toteutuksessa, olennaista on että IDE sopii hyvin web-sovellusten kehitykseen. 
-
-## Uuden PWA sovelluksen toteutus vaiheittain
 
 - Luo jokin tyhjä kansio ja avaa VS Code tässä kansiossa, tai käynnistä VS Code ja valitse kyseinen kansio.
 - Lisää projektiin tyhjä `index.html`.
@@ -190,12 +209,3 @@ Lighthouse:n käyttö tapahtuu seuraavasti:
  
 - Jotta HTTP => HTTPS redirect virheilmoitusta ei tule, täytyy tuotantoympäristössä eli esim. Azure Web App määrityksistä määrittää HTTPS redirect pakolliseksi.
 - Virheilmoitusten oikeassa yläkulmassa olevasta nuolesta löytyy suositus, millä virheen voi korjata sekä lisätietoja Learn more linkistä.
-
-## Live Server asennus
-
-Mikäli Live Server lisäosaa ei ole asennettuna VS Code:n ja haluat käyttää sitä kehityksessä web-palvelimena:
-- Valitse VS Coden Extension sivulta Live Server ja valitse Install.
-<img src="https://nsdwww.azurewebsites.net/github-images/image013.png" width="30%">
-- Käynnistä Live Server, Go Live painikkeesta.
-<img src="https://nsdwww.azurewebsites.net/github-images/image015.png" width="30%">
-
