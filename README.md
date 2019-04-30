@@ -7,7 +7,7 @@ PWA sovellukset eivät ole käännettyjä natiiveja sovelluksia vaan tavallisia 
 -	PWA sovellukset tukevat offline-käyttöä sekä Push-notifikaatioita.
 -	PWA sovellukset ovat asennettavissa ja käynnistettävissä puhelimesta samalla tavoin kuin natiivi-applikaatiot eli ne sisältävät käynnistysikonit sekä käynnistyksen aikaisen splash-näytön.
 
-PWA tuotantoasennus ei vaadi mitään erityistä verrattuna tavallisen selaimessa käytettävän web-app:n asennukseen eli esim. Azure tai AWS asennus toimii perusasetuksilla.
+PWA tuotantoasennus ei vaadi mitään erityistä verrattuna tavalliseen selaimessa käytettävän web-sivuston eli web-app:n asennukseen. Esim. Azure tai AWS asennus toimii perusasetuksilla.
 
 PWA sovelluksia voi myydä Google Play:n kautta. Mitään apk-tiedostoa ei kuitenkaan asenneta, vaan ainoastaan linkki PWA web-app sivulle + lisenssikoodi.
 
