@@ -7,7 +7,7 @@ PWA sovellukset eivät ole käännettyjä natiiveja sovelluksia vaan tavallisia 
 -	PWA sovellukset tukevat offline-käyttöä sekä Push-notifikaatioita.
 -	PWA sovellukset ovat asennettavissa ja käynnistettävissä puhelimesta samalla tavoin kuin natiivi-applikaatiot eli ne sisältävät käynnistysikonit sekä käynnistyksen aikaisen splash-näytön.
 
-PWA tuotantoasennus ei vaadi mitään erityistä verrattuna normaaliin web-app asennukseen eli esim. Azure tai AWS asennus toimii perusasetuksilla.
+PWA tuotantoasennus ei vaadi mitään erityistä verrattuna tavallisen selaimessa käytettävän web-app:n asennukseen eli esim. Azure tai AWS asennus toimii perusasetuksilla.
 
 PWA sovelluksia voi myydä Google Play:n kautta. Mitään apk-tiedostoa ei kuitenkaan asenneta, vaan ainoastaan linkki PWA web-app sivulle + lisenssikoodi.
 
@@ -37,7 +37,7 @@ Editorina on VS Code, johon on asennettuna [Live Server](https://marketplace.vis
   "name": "PWA Sample Project",
   "short_name": "PWA-Sample",
   "description": "This is my PWA Sample Project",
-  "Scope": "/",
+  "scope": "/",
   "start_url": "/",
   "splash_pages": null,
   "theme_color": "#2196f3",
