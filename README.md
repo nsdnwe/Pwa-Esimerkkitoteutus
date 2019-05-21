@@ -12,8 +12,8 @@ PWA tuotantoasennus ei vaadi mitään erityistä verrattuna tavalliseen selaimes
 PWA sovelluksia voi myydä Google Play:n kautta. Mitään apk-tiedostoa ei kuitenkaan asenneta, vaan ainoastaan linkki PWA web-app sivulle + lisenssikoodi.
 
 Jotta mobiililaitteen selain hyväksyy PWA sovelluksen, sen tulee täyttää tietyt kriteerit. Näitä ovat:
--	Sivujen tulee olla responsiivisia eli skaalautua päätelaitteen näytön mukaan.
--	Service worker teknologian avulla sovelluksen tulee tukea offline tilaa.
+-	Sivujen tulee olla responsiivisia eli skaalautua päätelaitteen näytön resoluution mukaan.
+-	Service worker-teknologian avulla sovelluksen tulee tukea offline-tilaa.
 -	SSL tulee olla käytössä kaikessa tietoliikenteessä.
 
 Tarkempi kuvaus PWA:sta löytyy esim. näiltä kahdelta sivulta:
@@ -22,7 +22,7 @@ Tarkempi kuvaus PWA:sta löytyy esim. näiltä kahdelta sivulta:
 
 ## Yksinkertaisen PWA sovelluksen toteutus vaiheittain
 
-Alla kuvatussa esimerkissä on käytetty läpi vaiheittain miten yksinkertainen PWA web-app toteutetaan. 
+Alla kuvatussa esimerkissä on käyty läpi vaiheittain miten yksinkertainen PWA web-app toteutetaan. 
 
 Editorina on VS Code, johon on asennettuna [Live Server](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer) lisäosa. IDE-valinnalla ei  ole  merkitystä PWA järjestelmän toteutuksessa, olennaista on että IDE sopii hyvin web-sovellusten kehitykseen. 
 
